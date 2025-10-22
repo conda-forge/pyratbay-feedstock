@@ -11,9 +11,8 @@ source:
   sha256: eac31a683f5dff376324e762355b66dedf8cd302b1f88aa197faaf3e6186fa48
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
-  skip: true  # [py<39]
   entry_points:
     - pbay = pyratbay.__main__:main
   script: {{ PYTHON }} -m pip install . -vv
