@@ -31,16 +31,17 @@ requirements:
     - matplotlib-base >=3.9.2
     - mc3 >=3.2.0
     - numpy >=2.0.0
-    - scipy >=1.16.0
+    - scipy >=1.13.1
     - chemcat >=0.3.12
     - h5py >=3.10.0
     - python
 
 test:
-  imports:
-    - pyratbay
+  requires:
     - pytest >=3.9
     - mpi4py >=3.1.4
+  imports:
+    - pyratbay
 
 about:
   home: https://github.com/pcubillos/pyratbay
