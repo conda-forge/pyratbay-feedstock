@@ -1,5 +1,5 @@
 {% set name = "pyratbay" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyratbay-{{ version }}.tar.gz
-  sha256: eac31a683f5dff376324e762355b66dedf8cd302b1f88aa197faaf3e6186fa48
+  sha256: ab2234abcd79df5fcc5de24963b967cc402dfcbfcb63bf7fbc10d680dc26762a
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   entry_points:
     - pbay = pyratbay.__main__:main
