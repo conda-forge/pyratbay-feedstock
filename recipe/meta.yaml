@@ -31,8 +31,9 @@ requirements:
     - mc3 >=3.2.0
     - numpy >=2.0.0
     - scipy >=1.13.1
-    - chemcat >=0.3.12
+    - chemcat >=1.0.0
     - h5py >=3.10.0
+    - requests >= 2.19.1
     - python
 
 test:
