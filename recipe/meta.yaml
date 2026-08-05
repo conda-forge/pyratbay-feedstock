@@ -11,7 +11,7 @@ source:
   sha256: 08e5eb3ac15b93b98f176f6976cf45010d4df69e5185eba7e0e483d330cc9e00
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   entry_points:
     - pbay = pyratbay.__main__:main
