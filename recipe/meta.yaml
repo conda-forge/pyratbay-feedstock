@@ -1,5 +1,5 @@
 {% set name = "pyratbay" %}
-{% set version = "2.0.2" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyratbay-{{ version }}.tar.gz
-  sha256: 9eb7e56f057b8dea49569c1312d43ed42df5627f2cc57f20eb7ae7b22d9b463b
+  sha256: 08e5eb3ac15b93b98f176f6976cf45010d4df69e5185eba7e0e483d330cc9e00
 
 build:
   number: 0
@@ -31,8 +31,9 @@ requirements:
     - mc3 >=3.2.0
     - numpy >=2.0.0
     - scipy >=1.13.1
-    - chemcat >=0.3.12
+    - chemcat >=1.0.0
     - h5py >=3.10.0
+    - requests >= 2.19.1
     - python
 
 test:
