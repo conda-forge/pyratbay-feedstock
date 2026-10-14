@@ -1,5 +1,5 @@
 {% set name = "pyratbay" %}
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyratbay-{{ version }}.tar.gz
-  sha256: 6b039ccb5c48f86a5e39c4259320dc59f490d94ac5a9b4196d02c9bae6c565d2
+  sha256: 8412fd6bc8e4345c4e5f49041295f0cccf0204a8ebc1d0ce415ea975c2111a2a
 
 build:
   number: 0
